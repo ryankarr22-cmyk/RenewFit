@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenewFit: The GLP-1 Protocol</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom font application and smooth scrolling */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light background for contrast */
+            scroll-behavior: smooth;
+        }
+        /* Custom color palette for RenewFit (Teal/Blue) */
+        .color-primary { background-color: #0F766E; } /* Dark Teal */
+        .text-primary { color: #0F766E; }
+        .border-primary { border-color: #0F766E; }
+        .color-accent { background-color: #38BDF8; } /* Sky Blue Accent */
+
+        /* Ensure the main container can flow naturally within an iframe */
+        #content-wrapper {
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div id="content-wrapper">
+        <!-- Header & Navigation -->
+        <!-- Changed from sticky to static for better Google Sites embed compatibility -->
+        <header class="bg-white shadow-md z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+                <div class="text-3xl font-extrabold text-primary">
+                    Renew<span class="text-gray-900">Fit</span>
+                </div>
+                <nav class="hidden md:flex space-x-8 text-gray-600 font-medium">
+                    <a href="#mission" class="hover:text-primary transition duration-300">Our Mission</a>
+                    <a href="#plans" class="hover:text-primary transition duration-300">The Protocols</a>
+                    <a href="#assessment" class="hover:text-primary transition duration-300">Get Started</a>
+                </nav>
+                <a href="#assessment" class="md:hidden text-sm px-4 py-2 rounded-lg color-primary text-white font-semibold shadow-lg hover:opacity-90 transition duration-300">
+                    Assess Me
+                </a>
+            </div>
+        </header>
+
+        <!-- 1. HERO SECTION -->
+        <section class="color-primary pt-16 pb-24 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-5xl sm:text-6xl font-extrabold mb-4 leading-tight">
+                    Stop Guessing. Start Renewing.
+                </h1>
+                <p class="text-xl sm:text-2xl font-light mb-8 max-w-4xl mx-auto opacity-90">
+                    The first fitness program designed exclusively for GLP-1 users. We help you lose fat without sacrificing precious muscle.
+                </p>
+                <a id="assessment" href="https://docs.google.com/forms/d/e/1FAIpQLSd_40q7vrmCvmFv59xeJBT96HRxLFawM3wvPjir6bvj3N-R4g/viewform?usp=dialog" target="_blank" class="inline-block px-10 py-4 text-xl font-bold rounded-xl color-accent text-gray-900 hover:bg-sky-400 transition duration-300 shadow-2xl transform hover:scale-[1.02]">
+                    Take the Free Assessment & Find Your Plan
+                </a>
+                <p class="mt-4 text-sm opacity-70">
+                    (CORE, ELEVATE, or APEX) — Takes 2 minutes.
+                </p>
+            </div>
+        </section>
+
+        <!-- 2. THE PROBLEM & OUR MISSION -->
+        <section id="mission" class="py-20 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">
+                    The GLP-1 Fitness Problem
+                </h2>
+                <p class="text-xl text-center text-gray-600 mb-12 max-w-3xl mx-auto">
+                    Losing weight quickly on medication is great, but up to 40% of that loss can be muscle. **RenewFit is engineered to prevent this.**
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Problem 1: Sarcopenia -->
+                    <div class="p-6 bg-red-50 border-l-4 border-red-500 rounded-lg shadow-lg">
+                        <div class="text-2xl font-bold mb-3 text-red-700">Muscle Loss Risk</div>
+                        <p class="text-gray-700">Rapid weight loss often strips away essential lean muscle (Sarcopenia). We prioritize strength and protein to defend against this and maintain your metabolism.</p>
+                    </div>
+                    <!-- Problem 2: Side Effects -->
+                    <div class="p-6 bg-yellow-50 border-l-4 border-yellow-500 rounded-lg shadow-lg">
+                        <div class="text-2xl font-bold mb-3 text-yellow-700">Nausea & Fatigue</div>
+                        <p class="text-gray-700">Traditional workouts can trigger severe nausea and fatigue. Our programs use "Movement Snacks" and appropriate rest to work *with* your medication, not against it.</p>
+                    </div>
+                    <!-- Problem 3: Nutrient Goals -->
+                    <div class="p-6 bg-green-50 border-l-4 border-green-500 rounded-lg shadow-lg">
+                        <div class="text-2xl font-bold mb-3 text-green-700">Protein Challenge</div>
+                        <p class="text-gray-700">Appetite suppression makes hitting protein goals tough. Every plan integrates specific, actionable nutrition guidance for muscle recovery and preservation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. THE THREE PROTOCOLS (The Plans) -->
+        <section id="plans" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">
+                    Our Three Personalized Protocols
+                </h2>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    
+                    <!-- Plan 1: CORE -->
+                    <div class="bg-white p-6 rounded-xl shadow-2xl border-t-8 border-gray-400 flex flex-col h-full">
+                        <h3 class="text-3xl font-extrabold mb-3 text-gray-900">CORE</h3>
+                        <p class="text-sm uppercase font-semibold text-gray-500 mb-4">The Stabilization Phase</p>
+                        <p class="text-gray-600 mb-6 flex-grow">
+                            **Who It’s For:** New users, or those experiencing high fatigue, nausea, or dizziness.
+                        </p>
+                        <ul class="list-none space-y-2 text-gray-700">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 005.143 17.5M16 16v2m-4-2v2m-4-2v2"></path></svg> 15-20 min "Movement Snacks"</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 005.143 17.5M16 16v2m-4-2v2m-4-2v2"></path></svg> Bodyweight & Band Focus</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 005.143 17.5M16 16v2m-4-2v2m-4-2v2"></path></svg> Focus on Hydration & Form</li>
+                        </ul>
+                        <a href="[INSERT GOOGLE FORM LINK HERE]" target="_blank" class="mt-6 w-full py-3 text-center bg-gray-400 text-white font-bold rounded-lg hover:bg-gray-500 transition duration-300">
+                            Start Here
+                        </a>
+                    </div>
+
+                    <!-- Plan 2: ELEVATE -->
+                    <div class="bg-white p-6 rounded-xl shadow-2xl border-t-8 border-yellow-500 flex flex-col h-full">
+                        <h3 class="text-3xl font-extrabold mb-3 text-gray-900">ELEVATE</h3>
+                        <p class="text-sm uppercase font-semibold text-yellow-600 mb-4">The Preservation Phase</p>
+                        <p class="text-gray-600 mb-6 flex-grow">
+                            **Who It’s For:** Stable users with reduced side effects and access to dumbbells.
+                        </p>
+                        <ul class="list-none space-y-2 text-gray-700">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg> 3x/Week Full-Body Lifts</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg> Dumbbell Focus (Sarcopenia Defense)</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg> Progress Tracking (RPE 8)</li>
+                        </ul>
+                        <a href="[INSERT GOOGLE FORM LINK HERE]" target="_blank" class="mt-6 w-full py-3 text-center bg-yellow-500 text-white font-bold rounded-lg hover:bg-yellow-600 transition duration-300">
+                            Start Here
+                        </a>
+                    </div>
+
+                    <!-- Plan 3: APEX (Recommended/Premium) -->
+                    <div class="bg-white p-6 rounded-xl shadow-2xl border-t-8 border-primary flex flex-col h-full">
+                        <h3 class="text-3xl font-extrabold mb-3 text-gray-900">APEX</h3>
+                        <p class="text-sm uppercase font-semibold text-primary mb-4">The Sculpting & Recomposition Phase</p>
+                        <p class="text-gray-600 mb-6 flex-grow">
+                            **Who It’s For:** Fully acclimated users with high energy who want max muscle growth and definition.
+                        </p>
+                        <ul class="list-none space-y-2 text-gray-700">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857h-9.143L13 3M19 16l-2 2h4l-2 2m-8-5.38a3.75 3.75 0 10-5.584 1.25M17 18a3.75 3.75 0 10-5.584 1.25"></path></svg> 4x/Week Upper/Lower Split</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857h-9.143L13 3M19 16l-2 2h4l-2 2m-8-5.38a3.75 3.75 0 10-5.584 1.25M17 18a3.75 3.75 0 10-5.584 1.25"></path></svg> Full Gym Equipment Assumed</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857h-9.143L13 3M19 16l-2 2h4l-2 2m-8-5.38a3.75 3.75 0 10-5.584 1.25M17 18a3.75 3.75 0 10-5.584 1.25"></path></svg> Advanced Intensity & Volume</li>
+                        </ul>
+                        <a href="[INSERT GOOGLE FORM LINK HERE]" target="_blank" class="mt-6 w-full py-3 text-center color-primary text-white font-bold rounded-lg hover:opacity-90 transition duration-300">
+                            Start Here
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FINAL CTA -->
+        <section class="py-16 bg-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center rounded-xl p-8 shadow-2xl border border-primary">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                    Ready to Stop Losing Muscle?
+                </h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Your RenewFit protocol starts with a 2-minute, no-obligation assessment. We need to know your side-effect profile to safely recommend your starting plan.
+                </p>
+                <a href="[INSERT GOOGLE FORM LINK HERE]" target="_blank" class="inline-block px-8 py-3 text-lg font-bold rounded-lg color-accent text-gray-900 hover:bg-sky-400 transition duration-300 shadow-xl">
+                    Take the Free RenewFit Assessment Now
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="color-primary py-8 mt-10">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+                <p class="text-sm">&copy; 2025 RenewFit. All rights reserved.</p>
+                <p class="text-xs mt-2 opacity-80">Disclaimer: RenewFit is a fitness and wellness program and is not a substitute for medical advice. Always consult your physician before starting any new fitness routine.</p>
+                <div class="mt-4 space-x-4">
+                    <a href="#" class="text-sm hover:text-gray-200">Privacy Policy</a>
+                    <span class="text-gray-400">|</span>
+                    <a href="#" class="text-sm hover:text-gray-200">Contact: [Your Email Here]</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
